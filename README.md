@@ -10,28 +10,25 @@ An agent-based model in R simulating the spread of infectious disease in a unive
 
 👇 Click on the plots to view the animations!
 
-<table style="border:none">
-  <tr bgcolor="white">
-    <td><a href="https://github.com/user-attachments/assets/36939aee-acf9-4ea5-81df-f6890e24a02f"><img src="https://github.com/user-attachments/assets/f5164590-8325-462b-a938-c5fd7bf0df14" width="800"/></a></td>
-    <td><b>HyFlex (hybrid-flexible):</b>
-      
-      - One third of students is assumed to always attend lectures in person  
-      - One third always online
-      - One third hybrid (50:50 chance each week). 
-      
-      Sick students always stay at home.
-  </tr>
-  <tr bgcolor="white">
-    <td><a href="https://github.com/user-attachments/assets/e200c70f-2c7f-4b89-b5ad-cc4c74d40c9e"><img src="https://github.com/user-attachments/assets/3cd96965-6fba-430a-88ff-67ef18c8d436" width="800"/></a></td>
-    <td><b>Traditional:</b> 
-      
-      - All students attend in person only. 
+<table>
+  <tr> 
+    <td><a href="https://github.com/user-attachments/assets/b336adc0-ddf9-4606-8dee-ca240413ea5d"><img src="https://github.com/user-attachments/assets/0d55f27e-ec1c-47a1-8126-bc64902a7489" width="400"/></a></td>
+    <td><b>Traditional (hybrid-flexible):</b><br><br>
+      - All students attend in person only.<br>
       Sick students may still go to campus with probability p = 0.2.
-      
-      
-      
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/user-attachments/assets/78ca6156-08b7-4e67-86ef-010c4b0fe936"><img src="https://github.com/user-attachments/assets/efb277a5-2766-4909-a942-12d32f28e01d" width="400"/></a></td>
+    <td><b>HyFlex (hybrid-flexible):</b><br><br>
+      - One third of students always attends in person<br>
+      - One third always online<br>
+      - One third hybrid (50:50 chance each week)<br><br>
+      Sick students always stay at home.
+    </td>
   </tr>
 </table>
+
 
 <br>
 
@@ -102,9 +99,7 @@ The simulation runs for 100 iterations × 2 settings × 14 classroom sizes × 14
 
 ## Results
 
-Average number of infections per student
-
-<img width="910" height="656" alt="image" src="https://github.com/user-attachments/assets/b5ccc320-7f76-4fd4-8634-aaa587a3ec0b" />
+<img width="551" height="487" alt="image" src="https://github.com/user-attachments/assets/dbae9943-f5e0-44c6-858b-6c3393838212" />
 
 - At 18 rows (assumed current classroom size): HyFlex produces 26× fewer infections (0.051 vs. 1.33)
 - The minimum viable square classroom for HyFlex is 14 rows vs. 18 rows for traditional → 1.65× less space needed
